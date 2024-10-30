@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = 7000;
 
 app.get('/', (req, res) => {
   res.send('Welcome to My Node.js App!');
