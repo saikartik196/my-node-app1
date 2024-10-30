@@ -14,7 +14,7 @@ COPY . .
 # Expose the port the app will run on
 EXPOSE 7000
 
-ENV PORT = 7000
+ENV PORT=7000
 
 # Start the app
 CMD [ "npm", "start" ]
